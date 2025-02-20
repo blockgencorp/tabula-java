@@ -1,12 +1,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>technology.tabula</groupId>
+    <groupId>com.blockgencorp</groupId>
     <artifactId>tabula</artifactId>
     <version>1.0.6-SNAPSHOT</version>
     <name>Tabula</name>
     <description>Extract tables from PDF files</description>
-    <url>http://github.com/tabulapdf/tabula-java</url>
+    <url>http://github.com/blockgencorp/tabula-java</url>
 
     <licenses>
         <license>
@@ -47,10 +47,10 @@
     </repositories>
 
     <scm>
-        <connection>scm:git:git@github.com:tabulapdf/tabula-java.git</connection>
-        <developerConnection>scm:git:git@github.com:tabulapdf/tabula-java.git</developerConnection>
-        <url>git@github.com:tabulapdf/tabula-java.git</url>
-        <tag>v1.0.2</tag>
+        <connection>scm:git:https://github.com/blockgencorp/tabula-java.git</connection>
+        <developerConnection>scm:git:git@github.com:blockgencorp/tabula-java.git</developerConnection>
+        <url>https://github.com/blockgencorp/tabula-java</url>
+        <tag>main</tag>
     </scm>
 
     <properties>
