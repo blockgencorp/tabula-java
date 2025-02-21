@@ -2,18 +2,14 @@ name: Tests
 
 on:
   pull_request:
-  workflow_call:
+  push:
+    branches: [main]
 
 jobs:
   tests:
     name: Run tests
     runs-on: ubuntu-24.04
     steps:
-      # https://github.com/actions/checkout/issues/135#issuecomment-602171132
-      - name: Set git to use LF
-        run: |
-          git config --global core.autocrlf false
-          git config --global core.eol lf
       - uses: actions/checkout@v4
       - name: Set up Java
         uses: actions/setup-java@v4

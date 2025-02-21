@@ -113,7 +113,7 @@ try (PDDocument document = PDDocument.load(in)) {
 ```
 
 
-For more detail information check the Javadoc. 
+For more detail information check the Javadoc.
 The Javadoc API documentation can be generated (see also '_Building from Source_' section) via
 
 ```
